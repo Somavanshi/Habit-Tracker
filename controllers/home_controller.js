@@ -7,7 +7,7 @@ module.exports.home = function(req,res){
             return;
         }
         return res.render('home',{
-            title:"LoopBit",
+            title:"track me",
             habit_list:habits
         });
     })
