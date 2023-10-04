@@ -4,11 +4,11 @@ function search_habit() {
     input=input.toLowerCase(); 
     let x = document.getElementsByClassName('habit'); 
       
-    for (i = 0; i < x.length; i++) {  
-        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
             x[i].style.display="none"; 
         } 
-        else { 
+        else {
             x[i].style.display="list-item";                  
         } 
     } 
